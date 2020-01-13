@@ -1,17 +1,34 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./img/fonts/style.css">
     <title>Youtube clone</title>
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <img src="img/youtube.png" alt="logo" class="logo">
-        </div>
-       <input type="input" class="search" placeholder="Search">
+
+        <span class="logo icon-youtube2"></span>
+
+        <input type="input" class="search" placeholder="Search">
+        <span class="ico icon-search icon-button"></span>
+        <span class="ico icon-menu" aria-hidden="true"></span>
     </header>
+
+    <section class="video-section">
+        <div class="video-main">
+            <iframe src="https://www.youtube.com/embed/k6KcaMffxac" frameborder="0" class="iframer"></iframe>
+            <div class="video-title">
+                <p class="video-paragraph">
+                    Contributing to Open Source Part I: The Easy Way
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
