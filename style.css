@@ -1,22 +1,30 @@
-html{
+body{
     margin: 0;
     padding: 0;
 }
 
 header{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
+    flex-wrap: nowrap;
+    width: 98%;
+    margin: 10px;
+    justify-content: space-around;
+}
+.input-section{
+    width: 60%;
+    display: flex;
 }
 .logo{
-   font-size: 2.5rem;
+   font-size: 2rem;
+   cursor: pointer;
+   padding-right: 1rem;
 }
 .search{
     height: .4rem;
-    width: 80%;
+   width: 80%;
     padding: 18px;
-    margin: auto 10px;
-    border-radius: 20px;
+    
+    
 }
 .ico{
     padding-right:.5rem ;
@@ -26,6 +34,12 @@ header{
 }
 .icon-button{
     transform: translateX(-45px);
+}
+.icon-menu{
+        transform: translateX(-45px);
+}
+.icon-button:hover{
+    background: #eee;
 }
 .video-section{
     padding: 2rem;
