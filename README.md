@@ -2,6 +2,8 @@
 
 This is the first project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc
 
+![demopage](./img/demopage.png)
+
 ## Built With
 
 - HTML 
@@ -23,5 +25,5 @@ This is the first project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
