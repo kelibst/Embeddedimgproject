@@ -6,8 +6,8 @@ This is the first project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## Built With
 
-- HTML 
-- CSS
+- HTML 5
+- CSS 3
 
 ## Authors
 
