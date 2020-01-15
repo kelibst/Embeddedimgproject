@@ -5,42 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e0cee5c01.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./img/fonts/style.css">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Youtube clone</title>
 </head>
 
 <body>
     <header>
-        <span class="logo icon-youtube2"></span>
+        <div class="ico logo-icons">
+            <i class="fas fa-bars"></i>
+            <i class="fab fa-youtube"></i><span class="youtube">YouTube</span>
+        </div>
+        
+       
         <div class="input-section">
             <input type="text" class="search" placeholder="Search">
-            <span class="ico icon-search icon-button"></span>
+            <i class="fas fa-search"></i>
         </div>
+       <div class="ico right-icons">
+        <i class="fas fa-video"></i>
+        <i class="fab fa-buromobelexperte"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user"></i>
+       </div>
        
-        <span class="ico icon-home" aria-hidden="true"></span>
 
     </header>
 
   <main>
     <div class="video-section">
-        <iframe  style="border:0px #ffffff none; display: none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+        
         
         <div class="video-main">
-            <iframe src="https://www.youtube.com/embed/k6KcaMffxac" frameborder="0" allowfullscreen class="iframer"></iframe>
+            <iframe src="https://www.youtube.com/embed/k6KcaMffxac"  allowfullscreen class="iframer"></iframe>
             <div class="video-title">
                 <p class="video-paragraph">
                     Contributing to Open Source Part I: The Easy Way
                 </p>
                 <div class="video-info">
-                    <p class="video-views">22000 views</p>
-                   <div class="icons-side">
-                    <span class="ico icon-point-up" aria-hidden="true"></span>
-                    <span class="ico icon-point-down" aria-hidden="true"></span>
+                    <p class="video-views">401,835 views •7 Jan 2020</p>
+                   <div class="icons-side ">
+                    <i class="fas fa-thumbs-up"></i> <span class="icon-words">123k</span>
+                    <i class="fas fa-thumbs-down"></i><span class="icon-words">123k</span>
                    
-                    <span class="ico icon-envelop" aria-hidden="true"></span>
-                    <span class="ico icon-user-tie" aria-hidden="true"></span>
-                    <input type="submit" class="btn btn-primary" value="Suscribe">
+                    <i class="fas fa-share"></i><span class="icon-words">Share</span>
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-save"></i><span class="icon-words">Share</span>
+                    
                    </div>
                 </div>
             </div>
