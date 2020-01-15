@@ -112,7 +112,6 @@ header{
     padding-bottom: 1rem;
 }
 .image-container{
-    width:60%;
     font-size:100%;
     background-color: transparent;
     position:relative;
@@ -121,6 +120,9 @@ header{
     border-width: 0px;
     border-style: none;
     border-color: white;
+    height: 94px;
+    width: 168px;
+
 }
 .infor {
     line-height: 1rem;
