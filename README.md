@@ -6,8 +6,12 @@ This is the first project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## Built With
 
-- HTML 
-- CSS
+- HTML5 
+- CSS3
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/kelibst/Embeddedimgproject/edebcc8ec6030352cba32c7c22fea3740a6cf768/index.html)
 
 ## Authors
 
