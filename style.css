@@ -124,18 +124,18 @@ header{
     position:relative;
     top:0px;
     padding-right: 1rem;
-    border-width: 0px;
-    border-style: none;
-    border-color: white;
     height: 94px;
     width: 168px;
-
+    cursor: pointer;
 }
 .infor {
     line-height: 1rem;
+    color: darkgrey;
+    cursor: pointer;
   }
   .image-header {
-    color: blue;
+    cursor: pointer;
+    color: black;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -203,3 +203,26 @@ header{
     
     float: left;
   }
+
+  /* make project little bit responsive */
+
+  @media(max-width: 900px){
+      .video-section{
+          flex-direction: column;
+          width: 90%;
+      }
+      .video-main{
+          width: 100%;
+      }
+      .description{
+          width: 100%;
+          padding: 0;
+      }
+      .side-bar{
+          margin-top: 13rem;
+      }
+      .input-section{
+        width: 0;
+        display: none;
+      }
+}
