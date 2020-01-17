@@ -9,21 +9,21 @@ body{
 header{
     display: flex;
     flex-wrap: nowrap;
-    width: 98%;
-    margin: 10px;
     justify-content: space-around;
+    margin: 10px;
+    width: 98%;
 }
 .input-section{
     display: flex;
-    width: 60%;
     overflow: hidden;
+    width: 60%;
 }
 .logo{
+    cursor: pointer;
     display: flex;
+    height: 33px;
     justify-content: center;
     width: 120px;
-    height: 33px;
-    cursor: pointer;
 }
 .right-icons{
     color: darkgrey;
@@ -34,118 +34,117 @@ header{
     padding-right: 5px;
   }
   .youtube {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 .fas.fa-bars {
-    margin: auto;
     font-size: 1.2rem;
+    margin: auto;
     padding-right: 1rem;
 }
 .right-icons *{
     padding-right: 1rem;
 } 
 .fas.fa-search {
-    margin: auto 0;
-    border: .1px solid lightgray;
-    padding: 8px 18px;
     background: #eee;
-    position: relative;
-    left: -2px;
-    cursor: pointer;
+    border: .1px solid lightgray;
     color: grey;
+    cursor: pointer;
+    left: -2px;
+    margin: auto 0;
+    padding: 8px 18px;
+    position: relative;
 }
 
 .fas.fa-search:hover{
-    color: black;
     background: #dfdfdf;
+    color: black;
 }
 .search{
    width: 80%;
 }
 .ico{
-    padding-right:.5rem ;
+    cursor: pointer;
     font-size: 1.2rem;
     margin: auto 0;
-    cursor: pointer;
+    padding-right:.5rem ;
 }
 
 
 .video-section{
-    padding: 2rem;
     display: flex;
+    padding: 2rem;
 }
 .video-info {
+    border-bottom: .5px solid grey;
     display: block;
     width: 100%;
-    border-bottom: .5px solid grey;
   }
   .video-info::after{
-      content: " ";
       clear: both;
+      content: " ";
       display: table;
   }
   .video-views {
-    font-size: .8rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkgrey;
     float: left;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
   }
   .icons-side{
-    padding: 1rem 0 0 1rem;
+    color: darkgrey;
     float: right;
     font-size: .8rem;
-    color: darkgrey;
     padding-right: 1rem;
+    padding: 1rem 0 0 1rem;
   }
   .icon-words{
-    padding:0 5px 0 10px;
     color: grey;
+    padding:0 5px 0 10px;
     text-transform: uppercase;
   }
 .video-main{
-    width: 100vw;
     padding-top: 4rem;
+    width: 100vw;
 }
 .video-title{
-    font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
     padding: 10px 0;
 }
 .iframer{
-    width: 95%;
-    height: 50%;
     border: none;
+    height: 50%;
+    width: 95%;
 }
 .container{
     display: flex;
     padding-bottom: 1rem;
 }
 .image-container{
-    font-size:100%;
     background-color: transparent;
+    border-color: white;
+    border-style: none;
+    border-width: 0px;
+    cursor: pointer;
+    font-size:100%;
+    height: 94px;
+    padding-right: 1rem;
     position:relative;
     top:0px;
-    padding-right: 1rem;
-    border-width: 0px;
-    border-style: none;
-    border-color: white;
-    height: 94px;
     width: 168px;
-    cursor: pointer;
 }
 .infor {
-    line-height: 1rem;
     color: darkgrey;
     cursor: pointer;
+    line-height: 1rem;
   }
   .image-header {
-    cursor: pointer;
     color: black;
-    font-size: 1.2rem;
+    cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
   }
   .image-description {
     font-size: .8rem;
@@ -154,28 +153,28 @@ header{
     font-size: .6rem;
   }
   .heading{
-      font-size: 1.2rem;
       font-family: 'Courier New', Courier, monospace;
+      font-size: 1.2rem;
       font-weight: 100;
   }
 
   .btn{
-      color: white;
-      padding: .5rem 1rem;
       background: red;
       border-radius: 10px;
+      color: white;
+      padding: .5rem 1rem;
   }
   .btn:hover{
       background:rgb(6, 6, 131);
   }
   .video-des {
       display: flex;
-      padding: 1rem 0;
       flex-direction: column;
+      padding: 1rem 0;
 }
 .video-descriptions{
-    padding-left: 1rem;
     float: left;
+    padding-left: 1rem;
 }
 
 .video-author {
@@ -184,32 +183,30 @@ header{
 
 }
 .description{
+
     display: flex;
-    width: 60%;
-    padding: .5rem 4rem;
     flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
-
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: .5rem 4rem;
+    width: 60%;
 }
 .description >p{
     color: grey;
     line-height: 1.6rem;
 }
 .subscribe{
-    float: right;
     
+    float: right;
     margin-right: 1rem;
 }
   .img-frame {
-    width: 50px;
-    height: 50px;
     background-image: url(./img/videosidebar.jpeg);
     border-radius: 50rem;
-    
-    
     float: left;
+    height: 50px;
+    width: 50px;
   }
 
   /* make project little bit responsive */
@@ -223,14 +220,14 @@ header{
           width: 100%;
       }
       .description{
-          width: 100%;
           padding: 0;
+          width: 100%;
       }
       .side-bar{
           margin-top: 13rem;
       }
       .input-section{
-        width: 0;
         display: none;
+        width: 0;
       }
 }
