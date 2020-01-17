@@ -29,24 +29,24 @@ header{
     color: darkgrey;
     font-size: 1.2rem;
 }
-.fab.fa-youtube {
+/* .fab.fa-youtube {
     color: red;
     padding-right: 5px;
-  }
-  .youtube {
+  } */
+  /* .youtube {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-  }
-.fas.fa-bars {
+  } */
+.bars {
     font-size: 1.2rem;
     margin: auto;
     padding-right: 1rem;
 }
-.right-icons *{
+.right-icons > i{
     padding-right: 1rem;
 } 
-.fas.fa-search {
+.fa-search {
     background: #eee;
     border: .1px solid lightgray;
     color: grey;
@@ -57,7 +57,7 @@ header{
     position: relative;
 }
 
-.fas.fa-search:hover{
+.fa-search:hover{
     background: #dfdfdf;
     color: black;
 }
@@ -126,13 +126,13 @@ header{
     background-color: transparent;
     border-color: white;
     border-style: none;
-    border-width: 0px;
+    border-width: 0;
     cursor: pointer;
     font-size:100%;
     height: 94px;
-    padding-right: 1rem;
+    margin-right: 1rem;
     position:relative;
-    top:0px;
+    top:0;
     width: 168px;
 }
 .infor {
@@ -183,13 +183,12 @@ header{
 
 }
 .description{
-
     display: flex;
     flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
-    padding: .5rem 4rem;
+    margin: .5rem 4rem;
     width: 60%;
 }
 .description >p{
