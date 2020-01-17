@@ -96,8 +96,8 @@ header{
     color: darkgrey;
     float: right;
     font-size: .8rem;
-    padding-right: 1rem;
     padding: 1rem 0 0 1rem;
+    padding-right: 1rem;
   }
   .icon-words{
     color: grey;
