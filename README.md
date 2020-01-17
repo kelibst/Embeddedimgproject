@@ -11,7 +11,7 @@ This is the first project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kelibst/Embeddedimgproject/master/index.html)
+[Live Demo Link](https://raw.githack.com/kelibst/Embeddedimgproject/working/index.html)
 
 ## Authors
 
