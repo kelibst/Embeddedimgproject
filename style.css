@@ -12,15 +12,33 @@ header{
 }
 .input-section{
     display: flex;
-    overflow: hidden;
     width: 60%;
 }
-.logo{
+.logo-container{
     cursor: pointer;
     display: flex;
-    height: 50px;
     justify-content: center;
+    width: 200px;
+}
+.logo-img{
     width: 120px;
+    height: 50px;
+    margin-top: -10px;
+}
+button{
+    padding: 0;
+    margin: 0;
+    height: 34px;
+}
+.share{
+    border: none;
+    background: transparent;
+    padding: 0 10px;
+    color: grey;
+}
+.right-logo-icons {
+    height: 30px;
+    width: 40px;
 }
 .right-icons{
     color: darkgrey;
@@ -32,19 +50,20 @@ header{
     margin: auto;
     padding-right: 1rem;
 }
-.right-icons > i{
+.right-icons > i:not(:last-child){
     padding-right: 1rem;
+} 
+.right-icons > i:last-child{
+    padding-left: 1rem;
 } 
 .fa-search {
     background: #eee;
     border: .1px solid lightgray;
     color: grey;
     cursor: pointer;
-    font-size: 1.6rem;
-    left: -2px;
-    margin: auto 0;
-    padding: 12px 18px;
+    font-size: 1.5rem;
     position: relative;
+    border: 0;
 }
 
 
@@ -89,6 +108,12 @@ header{
     font-size: .8rem;
     padding: 1rem 0 0 1rem;
     padding-right: 1rem;
+  }
+  .navbar{
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      height: 30px;
   }
   .icon-words{
     color: grey;
@@ -199,10 +224,6 @@ header{
     width: 50px;
   }
 
-  .right-logo-icons {
-      height: 40px;
-      width: 50px;
-  }
 
   /* make project little bit responsive */
 
