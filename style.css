@@ -106,13 +106,13 @@ header{
     color: darkgrey;
     float: right;
     font-size: .8rem;
-    padding-right: 1rem;
     padding: 1rem 0 0 1rem;
+    padding-right: 1rem;
   }
   .navbar{
       display: flex;
       height: 30px;
-      justify-content: space-evenly;
+      justify-content: space-between;
       width: 100%;
   }
   .icon-words{
